@@ -1,0 +1,14 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: "demo-service"
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: demo
+      auto-index-creation: true
+
+server:
+  port: 8083
